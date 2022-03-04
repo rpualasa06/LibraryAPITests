@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "def989ea-2cd9-4df0-b054-ea6b725764d8",
+		"_postman_id": "cd9586ad-8f07-41e6-b3ac-88025cec4b7b",
 		"name": "Library",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -14,6 +14,10 @@
 						"exec": [
 							"//Assertions validations - response",
 							" pm.collectionVariables.set(\"flag\",false);",
+							"",
+							"//somespaces",
+							"",
+							"",
 							"const jsonData =pm.response.json();",
 							" var req = JSON.parse(pm.request.body.raw);",
 							"console.log(jsonData);",
